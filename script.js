@@ -15,6 +15,6 @@ let multTable = (size) => {
             firstArray[firstCounter].push(firstCounter * secondCounter)
         }
     }
-    return firstArray
+    return console.table(firstArray)
 }
-console.table(multTable(10))
+multTable(10)
